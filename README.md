@@ -1,14 +1,11 @@
-# Habit_Tracker
-This is my first Python project using OOP and SQLite.
+# Habit Tracker
 
-I created a simple habit tracker to track my daily progress in Python, English, and Quran.
+I wanted to build a program that stores my daily habits so I can look back at my progress over time.
 
-I used a class to create each habit and asked the user if they completed it today. Then, I stored the results in an SQLite database.
+I decided to build it using the new concepts I had learned in Python, especially OOP and SQLite.
 
-I created two tables:
-- **Habit:** stores habit names and their IDs.
-- **Habit_log:** stores the date and completion status of each habit.
+The program tracks three habits: Python, English, and Quran. It asks me if I completed each habit and stores the result with the date in a database.
 
-I also learned how to use `INSERT OR IGNORE` to avoid adding the same habit more than once, and `INSERT OR REPLACE` to update the habit status for the same day.
+I used two tables: one to store the habits and another to store their daily progress, so I can keep track of different days.
 
-This project helped me understand how Python, OOP, and databases work together. I'm still learning, and I hope to improve it as I gain more experience.
+This project helped me practice what I learned and understand how Python and databases work together.
